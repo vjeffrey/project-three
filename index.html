@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
     <title>Udacity Frogger, by Victoria</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	
@@ -16,11 +17,11 @@
 			<h3>Collect as many gems and stars as you can without getting hit by the enemy bug cars. Use your keyboard arrows.</h3>
 		<hr>	
 			<h2>Choose your avatar:</h2>
-			<img id="avatar0" class="avatarImg" onclick="avatarClick(this.id, 0)" src="images/char-boy.png" />
-			<img id="avatar1" class="avatarImg" onclick="avatarClick(this.id, 1)" src="images/char-cat-girl.png" />
-			<img id="avatar2" class="avatarImg" onclick="avatarClick(this.id, 2)" src="images/char-horn-girl.png" />
-			<img id="avatar3" class="avatarImg" onclick="avatarClick(this.id, 3)" src="images/char-pink-girl.png" />
-			<img id="avatar4" class="avatarImg" onclick="avatarClick(this.id, 4)" src="images/char-princess-girl.png" />
+			<img id="avatar0" class="avatarImg" onclick="avatarClick(this.id, 0)" src="images/char-boy.png" alt="boy avatar"/>
+			<img id="avatar1" class="avatarImg" onclick="avatarClick(this.id, 1)" src="images/char-cat-girl.png" alt="cat girl avatar" />
+			<img id="avatar2" class="avatarImg" onclick="avatarClick(this.id, 2)" src="images/char-horn-girl.png" alt="horn girl avatar"/>
+			<img id="avatar3" class="avatarImg" onclick="avatarClick(this.id, 3)" src="images/char-pink-girl.png" alt="pink girl avatar"/>
+			<img id="avatar4" class="avatarImg" onclick="avatarClick(this.id, 4)" src="images/char-princess-girl.png" alt="princess girl avatar"/>
 		<hr>
 			<h2>Take it easy, or challenge yourself:</h2>
 			<button id="easyButton" class="button difficultyButton" onclick="difficultyClick(this.id, 'Easy')">Easy</button>
@@ -42,7 +43,7 @@
     	<h1>Game Over!</h1>
     	<hr>
 	    	<div id="gameSummary">
-	    		<h2>You Scored<h2>
+	    		<h2>You Scored</h2>
 	    		<h1 id="pointsSummary">0</h1>
 	    		<h2>Points</h2>
 	    	</div>
