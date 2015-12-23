@@ -22,4 +22,4 @@ In this game of Udacity Frogger, the goal is to collect as many gems or stars as
 by the enemy bug cars. Use the up, side, and down arrows to move around the screen.
 
 Victoria Daphnee Jeffrey, February 2015
-hi
+hi2
